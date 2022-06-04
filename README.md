@@ -1,6 +1,6 @@
 ﻿
 
-# 한시간만에 끝내는 Vue.js 입문
+# React와 Node.js를 활용한 고객 관리 시스템 개발 강의
 node.js  -> npm 11.9.0
 node -v
 npm 
@@ -18,6 +18,9 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ulsanbigboy/react-management-tutorial.git
 git push -u origin main
+
+
+
 
 
 
@@ -91,3 +94,14 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
+## 참조사이트
+- [안경잡이개발자](https://github.com/ndb796)
+- [React와 Node.js를 활용한 고객 관리 시스템 개발 강의](https://github.com/ndb796/React-Management-Tutorial)
+
+
+
+
