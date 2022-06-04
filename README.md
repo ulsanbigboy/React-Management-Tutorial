@@ -1,4 +1,5 @@
 ﻿
+
 # 한시간만에 끝내는 Vue.js 입문
 node.js  -> npm 11.9.0
 node -v
@@ -8,6 +9,7 @@ npm install -g yarn
 create-react-app management
 cd management
 yarn start
+
 
 cd D:\Front\react-management-tutorial
 git init
