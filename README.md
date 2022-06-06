@@ -1,6 +1,6 @@
 ﻿
 
-# React와 Node.js를 활용한 고객 관리 시스템 개발 강의
+# React와 Node.js를 활용한 고객 관리 시스템
 node.js  -> npm 11.9.0
 node -v
 npm 
@@ -18,9 +18,16 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ulsanbigboy/react-management-tutorial.git
 git push -u origin main
+git push --set-upstream origin master
 
+https://material-ui.com
 
-
+npm install @material-ui/core
+npm install -g nodemon
+node server.js
+yarn dev
+npm install --save body-parser
+https://jsonlint.com
 
 
 
