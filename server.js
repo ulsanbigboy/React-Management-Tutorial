@@ -1,3 +1,4 @@
+
 const fs = require('fs');
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -23,13 +24,15 @@ connection.connect();
 const multer = require('multer');
 const upload = multer({dest: './upload'})
 
+/*
+ * 조회
+ */
 app.get('/api/customers', (req, res) => {
     connection.query(
       "SELECT * FROM CUSTOMER WHERE isDeleted = 0",
       (err, rows, fields) => {
-        console.log(err);
-        console.log(rows.JSON);
-          
+        console.log("서버:"  + err);
+        console.log("서버:"  + rows.JSON);
           res.send(rows);
       }  
     );
@@ -37,13 +40,21 @@ app.get('/api/customers', (req, res) => {
 
 app.use('/image', express.static('./upload'));
 
+/*
+ * 입력
+ */
 app.post('/api/customers', upload.single('image'), (req, res) => {
-    let sql = 'INSERT INTO CUSTOMER VALUES (null, ?, ?, ?, ?, ?, now(), 0)';
+    let sql = 'INSERT INTO CUSTOMER(id,image,name,birthday,gender,job,isDeleted) VALUES (null, ?, ?, ?, ?, ?, 0)';
     let image = '/image/' + req.file.filename;
     let name = req.body.name;
     let birthday = req.body.birthday;
     let gender = req.body.gender;
     let job = req.body.job;
+    console.log("image:"  + image);
+    console.log("name:"  + name);
+    console.log("birthday:"  + birthday);
+    console.log("gender:"  + gender);
+    console.log("job:"  + job);
     let params = [image, name, birthday, gender, job];
     connection.query(sql, params, 
         (err, rows, fields) => {

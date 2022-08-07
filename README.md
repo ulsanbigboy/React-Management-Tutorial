@@ -11,6 +11,8 @@ cd management
 yarn start
 
 
+
+
 cd D:\Front\react-management-tutorial
 git init
 git add README.md
@@ -28,6 +30,40 @@ node server.js
 yarn dev
 npm install --save body-parser
 https://jsonlint.com
+
+
+
+
+## 1강
+```
+%SystemRoot%\syswow64\WindowsPowerShell\v1.0\powershell.exe
+%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
+Set-ExecutionPolicy RemoteSigned
+node -v 
+npm install -g create-react-app
+npm install -g yarn
+create-react-app management
+yarn start
+```
+
+## 3강
+```
+git remote add origin https://github.com/ulsanbigboy/react-management-tutorial.git
+git push --set-upstream origin master
+```
+
+## 5강
+```
+https://placeimg.com/64/64/any
+```
+
+## 7강
+```
+npm install -g nodemon
+node server.js
+```
+
+
 
 
 
@@ -118,34 +154,4 @@ node -v
 npm install -g nodemon
 node server.js
 yarn dev
-
-
-## 1강
-```
-%SystemRoot%\syswow64\WindowsPowerShell\v1.0\powershell.exe
-%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
-Set-ExecutionPolicy RemoteSigned
-node -v 
-npm install -g create-react-app
-npm install -g yarn
-create-react-app management
-yarn start
-```
-
-## 3강
-```
-git remote add origin https://github.com/ulsanbigboy/react-management-tutorial.git
-git push --set-upstream origin master
-```
-
-## 5강
-```
-https://placeimg.com/64/64/any
-```
-
-## 7강
-```
-npm install -g nodemon
-node server.js
-```
 
