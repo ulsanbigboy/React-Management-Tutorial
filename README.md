@@ -1,35 +1,7 @@
 ﻿
 
 # React와 Node.js를 활용한 고객 관리 시스템
-node.js  -> npm 11.9.0
-node -v
-npm 
-npm install -g create-react-app
-npm install -g yarn
-create-react-app management
-cd management
-yarn start
 
-
-
-
-cd D:\Front\react-management-tutorial
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ulsanbigboy/react-management-tutorial.git
-git push -u origin main
-git push --set-upstream origin master
-
-https://material-ui.com
-
-npm install @material-ui/core
-npm install -g nodemon
-node server.js
-yarn dev
-npm install --save body-parser
-https://jsonlint.com
 
 
 
@@ -62,6 +34,39 @@ https://placeimg.com/64/64/any
 npm install -g nodemon
 node server.js
 ```
+
+
+
+
+node.js  -> npm 11.9.0
+node -v
+npm 
+npm install -g create-react-app
+npm install -g yarn
+create-react-app management
+cd management
+yarn start
+
+
+
+
+cd D:\Front\react-management-tutorial
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ulsanbigboy/react-management-tutorial.git
+git push -u origin main
+git push --set-upstream origin master
+
+https://material-ui.com
+
+npm install @material-ui/core
+npm install -g nodemon
+node server.js
+yarn dev
+npm install --save body-parser
+https://jsonlint.com
 
 
 
