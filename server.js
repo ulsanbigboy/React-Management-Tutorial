@@ -1,7 +1,11 @@
 
+
+
 const fs = require('fs');
 const express = require('express');
 const bodyParser = require('body-parser');
+
+
 const app = express();
 const port = process.env.PORT || 5000;
 
@@ -12,6 +16,9 @@ const data = fs.readFileSync('./database.json');
 const conf = JSON.parse(data);
 const mysql = require('mysql');
 
+/*
+ * ■.접속
+ */
 const connection = mysql.createConnection({
     host: conf.host,
     user: conf.user,
@@ -25,7 +32,7 @@ const multer = require('multer');
 const upload = multer({dest: './upload'})
 
 /*
- * 조회
+ * ■.조회
  */
 app.get('/api/customers', (req, res) => {
     connection.query(
@@ -41,7 +48,7 @@ app.get('/api/customers', (req, res) => {
 app.use('/image', express.static('./upload'));
 
 /*
- * 입력
+ * ■.입력
  */
 app.post('/api/customers', upload.single('image'), (req, res) => {
     let sql = 'INSERT INTO CUSTOMER(id,image,name,birthday,gender,job,isDeleted) VALUES (null, ?, ?, ?, ?, ?, 0)';
@@ -63,6 +70,9 @@ app.post('/api/customers', upload.single('image'), (req, res) => {
     );
 });
 
+/*
+ * ■.수정
+ */
 app.delete('/api/customers/:id', (req, res) => {
     let sql = 'UPDATE CUSTOMER SET isDeleted = 1 WHERE id = ?';
     let params = [req.params.id];
