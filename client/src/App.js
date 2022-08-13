@@ -19,6 +19,9 @@ import { fade } from '@material-ui/core/styles/colorManipulator';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 
+/*
+ * ■.수정
+ */
 const styles = theme => ({
   root: {
     width: '100%',
@@ -96,6 +99,10 @@ const styles = theme => ({
   }
 });
 
+
+/*
+ * ■.수정
+ */
 class App extends Component {
 
   constructor(props) {
