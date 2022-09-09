@@ -3,7 +3,7 @@
 # upload
 /upload
 
-# database
+# database 설정 제외
 /database.json
 
 # dependencies
