@@ -2,8 +2,17 @@
 
 # React와 Node.js를 활용한 고객 관리 시스템
 
+## 실행
+cd client 
+npm start
+cd server
+node server.js
 
 
+
+## 관련 URL
+https://github.com/ulsanbigboy/react-management-tutorial
+https://mui.com/
 
 
 ## 1강
