@@ -11,8 +11,8 @@ node server.js
 
 
 ## 관련 URL
-https://github.com/ulsanbigboy/react-management-tutorial
-https://mui.com/
+- [React와 Node.js를 활용한 고객 관리 시스템](https://github.com/ulsanbigboy/react-management-tutorial)
+- [머티리얼UI](https://mui.com)
 
 
 ## 1강
@@ -44,7 +44,72 @@ npm install -g nodemon
 node server.js
 ```
 
+## 8강
+```
+npm install -g nodemon
+node server.js
+```
 
+
+## 9강
+```
+npm install -g nodemon
+node server.js
+```
+
+## 10강
+```
+npm install -g nodemon
+node server.js
+```
+
+## 11강
+```
+npm install -g nodemon
+node server.js
+```
+
+## 12강
+```
+npm install -g nodemon
+node server.js
+```
+
+## 13강
+```
+npm install -g nodemon
+node server.js
+```
+
+## 14강
+```
+npm install -g nodemon
+node server.js
+```
+
+## 15강
+```
+npm install -g nodemon
+node server.js
+```
+
+## 16강
+```
+npm install -g nodemon
+node server.js
+```
+
+## 17강
+```
+npm install -g nodemon
+node server.js
+```
+
+## 18강
+```
+npm install -g nodemon
+node server.js
+```
 
 
 node.js  -> npm 11.9.0
@@ -99,9 +164,7 @@ https://jsonlint.com
 6. npm install vue-router --save
 
 ## 참조사이트
-- [Lifecycle-Diagram](https://v2.vuejs.org/v2/guide/instance.html#Lifecycle-Diagram)
-- [lifecycle.png](https://v2.vuejs.org/images/lifecycle.png)
-- [bootstrap-vue](https://bootstrap-vue.org/)
+- [MUI CORE](https://mui.com)
 
 
 
