@@ -1,8 +1,14 @@
+/*
+ * ■.입력
+ */
 import React from 'react';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import CustomerDelete from './CustomerDelete';
 
+/*
+ * ■.입력
+ */
 class Customer extends React.Component {
     render() {
         return (
@@ -19,4 +25,8 @@ class Customer extends React.Component {
     }
 }
 
+/*
+ * ■.입력
+ */
 export default Customer;
+

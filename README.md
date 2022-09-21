@@ -46,69 +46,58 @@ node server.js
 
 ## 8강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 
 ## 9강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 ## 10강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 ## 11강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 ## 12강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 ## 13강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 ## 14강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 ## 15강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 ## 16강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 ## 17강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 ## 18강
 ```
-npm install -g nodemon
-node server.js
+-
 ```
 
 
@@ -212,8 +201,6 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
