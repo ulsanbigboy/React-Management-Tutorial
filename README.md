@@ -152,8 +152,6 @@ https://jsonlint.com
 5. yarn serve
 6. npm install vue-router --save
 
-## 참조사이트
-- [MUI CORE](https://mui.com)
 
 
 
@@ -208,7 +206,7 @@ yarn lint
 ## 참조사이트
 - [안경잡이개발자](https://github.com/ndb796)
 - [React와 Node.js를 활용한 고객 관리 시스템 개발 강의](https://github.com/ndb796/React-Management-Tutorial)
-
+- [MUI CORE](https://mui.com)
 
 
 
