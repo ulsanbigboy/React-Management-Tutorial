@@ -1,5 +1,5 @@
 /*
- * ■.입력
+ * ■.고객정보 1행
  */
 import React from 'react';
 import TableRow from '@material-ui/core/TableRow';

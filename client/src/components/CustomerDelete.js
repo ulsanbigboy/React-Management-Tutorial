@@ -1,3 +1,6 @@
+/*
+ * ■ 고객 삭제
+ */
 import React from 'react';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
